@@ -5,11 +5,15 @@ class APITest < Test::Unit::TestCase
   context "attributes" do
 
     setup do
-      @c = GoToWebinar::API.new("12345")
+      @c = GoToWebinar::API.new("12345", "54321")
     end
 
     should "have access_token is set" do
       assert_equal(@c.access_token, "12345")
+    end
+    
+    should "have access_token is set" do
+      assert_equal(@c.organizer_key, "54321")
     end
     
     should "have valid accept header" do
