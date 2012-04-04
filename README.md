@@ -4,7 +4,7 @@ This is a project to build a Ruby wrapper for using Citrix's GoToWebinar REST AP
 
 ##Requirements
 
-You must have an active GoToWebinar account and a valid access token from the GoToWebinar OAuth flow. Please refer to the [authentication and authorization documentation](https://developer.citrixonline.com/page/authentication-and-authorization). 
+You must have an active GoToWebinar account and a valid access token from the GoToWebinar OAuth flow. Please refer to the [authentication and authorization documentation](https://developer.citrixonline.com/page/authentication-and-authorization). The OAuth flow will return both the access token and organizer key. Both access token and organizer key are required to use the webinar API. 
 
 ##Install
 
