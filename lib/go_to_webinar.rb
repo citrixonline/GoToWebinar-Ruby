@@ -19,14 +19,16 @@ module GoToWebinar
     include GoToWebinar::Sessions
     
     attr_accessor :access_token
+    attr_accessor :organizer_key
     
-    def initialize(access_token = nil, extra_params = {})
+    def initialize(access_token, organizer_key, extra_params = {})
       
       # the access token from oauth 
       @access_token = access_token
+      @organizer_key = organizer_key
       
       @default_params = {
-        :base_uri => "https://api.citrixonline.com/G2W/rest/",
+        :base_uri => "https://api.citrixonline.com/G2W/rest/organizers/#{@organizer_key}/",
         :headers => {
           "Content-type" => "application/json",
           "Accept" => "application/json",
