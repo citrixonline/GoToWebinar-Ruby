@@ -12,7 +12,7 @@ class APITest < Test::Unit::TestCase
       assert_equal("12345", @c.access_token)
     end
     
-    should "have access_token is set" do
+    should "have organizer key set" do
       assert_equal("54321", @c.organizer_key)
     end
     
