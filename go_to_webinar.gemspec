@@ -23,6 +23,7 @@ Gem::Specification.new do |s|
   # s.add_runtime_dependency "rest-client"
 
   s.add_runtime_dependency 'httparty'
+  s.add_runtime_dependency 'multi_json'
   
   s.add_development_dependency "shoulda"
   s.add_development_dependency "mocha"
