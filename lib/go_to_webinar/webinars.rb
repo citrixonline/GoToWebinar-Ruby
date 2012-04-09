@@ -1,11 +1,11 @@
 module GoToWebinar
   module Webinars
     
-    def get_historical_webinars(params)
+    def get_historical_webinars(params = {})
       self.class.get("historicalWebinars", :query => params)
     end
     
-    def get_upcoming_webinars(params)
+    def get_upcoming_webinars(params = {})
       self.class.get("upcomingWebinars", :query => params)
     end
     
