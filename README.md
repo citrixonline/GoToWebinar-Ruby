@@ -25,4 +25,4 @@ Please refer to the [developer documentation](https://developer.citrixonline.com
 
 ##Status
 
-Tests are incomplete at this time. 
+Tests are complete and passing.  
