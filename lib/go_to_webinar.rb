@@ -8,7 +8,7 @@ require "go_to_webinar/attendees"
 require "go_to_webinar/sessions"
 
 module GoToWebinar
-  class API
+  class Client
     
     include HTTParty
     format :json

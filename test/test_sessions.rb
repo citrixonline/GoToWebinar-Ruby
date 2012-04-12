@@ -5,7 +5,7 @@ class SessionsTest < Test::Unit::TestCase
   context "methods" do
 
     setup do
-      @c = GoToWebinar::API.new("12345", "54321")
+      @c = GoToWebinar::Client.new("12345", "54321")
     end
 
     should "generate valid get organizer sessions" do

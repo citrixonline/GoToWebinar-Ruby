@@ -5,7 +5,7 @@ class AttendeesTest < Test::Unit::TestCase
   context "methods" do
 
     setup do
-      @c = GoToWebinar::API.new("54321", "12345")
+      @c = GoToWebinar::Client.new("54321", "12345")
     end
 
     should "generate valid get attendee" do
