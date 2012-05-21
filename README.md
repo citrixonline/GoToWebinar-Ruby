@@ -14,7 +14,7 @@ It isn't an official repository yet so you can't do the normal gem install route
 	
 For now you will need to install from source. 
 
-	gem install go_to_webinar, :git => 'git://github.com/nathanwfish/GoToWebinar.git'
+	gem install go_to_webinar, :git => 'git://github.com/citrixonline/GoToWebinar-Ruby.git'
 
 ##Usage
 
