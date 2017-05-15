@@ -28,7 +28,7 @@ module GoToWebinar
       @organizer_key = organizer_key
       
       @default_params = {
-        :base_uri => "https://api.citrixonline.com/G2W/rest/organizers/#{@organizer_key}/",
+        :base_uri => "https://api.getgo.com/G2W/rest/organizers/#{@organizer_key}",
         :headers => {
           "Content-type" => "application/json",
           "Accept" => "application/json",
